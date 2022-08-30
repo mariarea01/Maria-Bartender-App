@@ -23,6 +23,16 @@ namespace Bartender_App.Controllers
             return View();
         }
 
+        public IActionResult Drinks()
+        {
+            return View();
+        }
+
+        public IActionResult Queue()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
