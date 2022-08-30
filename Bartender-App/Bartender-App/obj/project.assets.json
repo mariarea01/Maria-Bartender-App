@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maria\\source\\repos\\Bartender-App\\Bartender-App\\Bartender-App.csproj",
+      "projectUniqueName": "C:\\Users\\maria\\Documents\\GitHub\\Maria-Bartender-App\\Bartender-App\\Bartender-App\\Bartender-App.csproj",
       "projectName": "Bartender-App",
-      "projectPath": "C:\\Users\\maria\\source\\repos\\Bartender-App\\Bartender-App\\Bartender-App.csproj",
+      "projectPath": "C:\\Users\\maria\\Documents\\GitHub\\Maria-Bartender-App\\Bartender-App\\Bartender-App\\Bartender-App.csproj",
       "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maria\\source\\repos\\Bartender-App\\Bartender-App\\obj\\",
+      "outputPath": "C:\\Users\\maria\\Documents\\GitHub\\Maria-Bartender-App\\Bartender-App\\Bartender-App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
