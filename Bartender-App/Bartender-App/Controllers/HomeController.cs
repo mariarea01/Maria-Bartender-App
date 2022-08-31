@@ -27,14 +27,6 @@ namespace Bartender_App.Controllers
         {
             return View();
         }
-
-        [HttpGet]
-        public ActionResult Submit(string name)
-        {
-            ViewBag.Name = name;
-            return View("Index");
-        }
-
         public IActionResult Queue()
         {
             return View();
@@ -44,6 +36,20 @@ namespace Bartender_App.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        [HttpGet]
+        public ActionResult Submit(string name)
+        {
+            ViewBag.Name = name;
+            return View("Index");
+        }
+
+        [HttpPost]
+        public ActionResult Submit(FormCollection fc)
+        {
+            ViewBag.Name = fc["Name"];
+            return View("Index");
         }
     }
 }

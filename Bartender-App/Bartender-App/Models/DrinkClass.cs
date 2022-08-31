@@ -2,6 +2,6 @@
 {
     public class DrinkClass
     {
-        public string DrinkName { get; set; }
+        public string Drinkname { get; set; }
     }
 }
