@@ -23,12 +23,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/maria/Documents/GitHub/Maria-Bartender-App/Bartender-App/Bartender-App/Views/Home/Index1.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDEuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/maria/Documents/GitHub/Maria-Bartender-App/Bartender-App/Bartender-App/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maria/Documents/GitHub/Maria-Bartender-App/Bartender-App/Bartender-App/Views/Home/Queue.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxRdWV1ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maria/Documents/GitHub/Maria-Bartender-App/Bartender-App/Bartender-App/Views/Home/Submit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdWJtaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/maria/Documents/GitHub/Maria-Bartender-App/Bartender-App/Bartender-App/Views/Shared/Error.cshtml]

@@ -7,7 +7,23 @@
 <body>
     <div class="text-center">
         <h1 class="display-4">Welcome Patrons</h1>
-        <img src="~/img/bartender-drinks.jpg" />
         <h2>Choose the drinks of your choice and a bartender will make it.</h2>
+        <img src="~/img/bartender-drinks.jpg" />
     </div>
+    <h3><b>Forms - HTTPGET Method</b></h3>
+    @using (Html.BeginForm("Drinks", "Home", FormMethod.Get))
+    {
+        <table>
+            <tr>
+                <td>Enter Drink Name: </td>
+                <td>@Html.TextBox("Name")</td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" value="Submit"></td>
+            </tr>
+        </table>
+    }
+    <h4 style="color:purple">
+        Name: @ViewBag.Name<br />
+    </h4>
 </body>

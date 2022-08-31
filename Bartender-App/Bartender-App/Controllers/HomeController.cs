@@ -28,6 +28,13 @@ namespace Bartender_App.Controllers
             return View();
         }
 
+        [HttpGet]
+        public ActionResult Submit(string name)
+        {
+            ViewBag.Name = name;
+            return View("Index");
+        }
+
         public IActionResult Queue()
         {
             return View();
